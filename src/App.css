@@ -18,6 +18,17 @@ body {
   background-repeat: no-repeat;
 }
 
+@media(max-width: 1000px ){
+  body {
+    height: 100%;
+    width: 100%;
+    background: url('https://images.pexels.com/photos/296234/pexels-photo-296234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
 .App {
   border: 3px solid transparent;
   transition: all 0.5s;
