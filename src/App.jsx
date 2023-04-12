@@ -23,15 +23,13 @@ function App() {
    const measurementChange = () => {
     setTemperature(!temperature)
    }
-
-  //  let fundTime = weather.weather?.[0].icon;
   
   console.log(weather);
 
   return (
     <div className="App">
       <div className="sub-app">
-        <h1>Your clima</h1>
+        <h1>The Clim</h1>
         <p>{weather.sys?.[1]}</p>
         <strong><p>{weather.name}{", "}{weather.sys?.country}</p></strong>
         <div className='container-body'>
